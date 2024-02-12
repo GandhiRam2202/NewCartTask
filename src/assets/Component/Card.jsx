@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Card = ({setValue,value,work,size,price,index}) => {
+const Card = ({setValue,value,work,size,price,index,src}) => {
 
     const [status, setStatus]=useState(true)
 
@@ -24,7 +24,7 @@ const Card = ({setValue,value,work,size,price,index}) => {
                             {work}
                         </div>
                         <div className="card-img">
-                            <img src="" alt="" />
+                            <img src={src} alt="" width='100%'/>
                         </div>
                         <div className="card-text">
                             Size:{size}
