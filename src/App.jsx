@@ -9,7 +9,7 @@ const App = () => {
   const [value, setValue] = useState(0)
 
   const obj = [
-    { id: 1, work: 'Pencil Art', size: 'A4', price: 1400, src: './public/Images/Annotation 2024-02-12 123501.png' },
+    { id: 1, work: 'Pencil Art', size: 'A4', price: 1400, src: 'Images/Annotation 2024-02-12 123501.png' },
     { id: 2, work: 'Pencil Art', size: 'A3', price: 2400, src: './public/Images/4.png' },
     { id: 3, work: 'Pencil Art', size: 'A2', price: 3400, src: './public/Images/6.png' },
     { id: 4, work: 'Color Pencil Art', size: 'A4', price: 1400, src: './public/Images/3.png' },
