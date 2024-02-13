@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 
+
 const Card = ({ setValue, value, work, size, price, index, src }) => {
 
     const [status, setStatus] = useState(true)
@@ -38,6 +39,7 @@ const Card = ({ setValue, value, work, size, price, index, src }) => {
 
                 </div>
             </div>
+            
         </>
     )
 

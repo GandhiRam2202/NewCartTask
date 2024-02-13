@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Comp from './assets/Component/Comp';
+import Footer from './assets/Component/Footer';
 
 
 
@@ -35,6 +36,7 @@ const App = () => {
     <>
 
       {status ? <Comp setValue={setValue} value={value} setProducts={setProducts} products={products} /> : ''}
+      <Footer/>
 
 
     </>

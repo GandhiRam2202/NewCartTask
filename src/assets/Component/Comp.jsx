@@ -10,7 +10,7 @@ const Comp = ({ setValue, value, products }) => {
             <div>
                 <nav className="navbar bg-primary p-0 sticky-top">
                     <div className="container-fluid bg-primary p-0">
-                        <a className="navbar-brand text-white" href="#"><h1 className='d-none d-sm-block p-3'>KS Arts & Frames</h1><h1 className='d-block d-sm-none p-3'>KS</h1></a>
+                        <a className="navbar-brand text-white" href="#"><h1 className='d-none d-sm-block p-2'>KS Arts & Frames</h1><h1 className='d-block d-sm-none p-3'>KS</h1></a>
                         <button className="button text-white fw-bolder" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">Cart<i className="fa-solid fa-cart-shopping">{value}</i></button>
 
                     </div>
