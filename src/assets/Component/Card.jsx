@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const Card = ({setValue,value,work,size,price,index,src}) => {
 
     const [status, setStatus]=useState(true)
@@ -33,7 +34,7 @@ const Card = ({setValue,value,work,size,price,index,src}) => {
                         Price:{price}
                         </div>
                         
-                           {status ? <button className='border bg-primary rounded-bottom-5 text-white' onClick={addToCart}>Add to Cart</button>:<button className='border bg-primary rounded-bottom-5 text-white' onClick={removeFromCart}>Remove From Cart</button>}
+                           {status ? <button className='addTocart border rounded-bottom-5 text-white' onClick={addToCart}>Add to Cart</button>:<button className='danger border rounded-bottom-5 text-white' onClick={removeFromCart}>Remove From Cart</button>}
                         
                         </div>
                    </div>

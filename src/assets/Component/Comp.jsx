@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 
-const Comp = ({setValue,value,setProducts,products}) => {
+const Comp = ({setValue,value,products}) => {
     
 
     return (
