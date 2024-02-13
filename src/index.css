@@ -16,7 +16,5 @@
 .button:hover{
     border: 2px solid black;
     color: black;
-    i{
-        color: black;
-    }
+   
 }
