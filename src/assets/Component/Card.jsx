@@ -18,7 +18,7 @@ const Card = ({ setValue, value, work, size, price, index, src }) => {
 
 
 
-            <div className="col-sm-12 col-md-6 col-lg-3 text-center p-2" key={index}>
+            <div className="col-sm-12 col-md-4 col-lg-3 text-center p-2" key={index}>
 
                 <div className="card rounded-5">
                     <div className="card-header bg-primary text-white fw-bolder rounded-top-5">
