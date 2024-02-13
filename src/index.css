@@ -8,3 +8,15 @@
 .danger{
     background-color: red;
 }
+.button{
+    background-color: rgb(0, 110, 255);
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.button:hover{
+    border: 2px solid black;
+    color: black;
+    i{
+        color: black;
+    }
+}
