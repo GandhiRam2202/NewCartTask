@@ -35,7 +35,7 @@ const Comp = ({setValue,value,products}) => {
                 return(
                     <>
                     
-                <Card setValue={setValue} value={value} work = {item.work} index = {index} Size = {item.Size} price = {item.price} src={item.src}/>
+                <Card setValue={setValue} value={value} work = {item.work} index = {index} size = {item.size} price = {item.price} src={item.src}/>
                  </>
              )
                                     }
